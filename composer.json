@@ -1,0 +1,23 @@
+{
+    "name": "sugiphp/encoder",
+    "type": "library",
+    "description": "SugiPHP Encoder Components",
+    "keywords": ["encode", "decode", "base64", "base32", "hex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Plamen Popov",
+            "email": "tzappa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "SugiPHP\\Encoder\\": ""
+        }
+    },
+    "target-dir": "SugiPHP/Encoder",
+    "minimum-stability": "dev"
+}
